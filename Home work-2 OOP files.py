@@ -1,6 +1,5 @@
 with open("recipesbook.txt", "r", encoding="utf-8") as file:
     cook_book_dict = {}
-    # cook_book_keys = []
     for line in file:
         dish_name = line.strip()
         counter = int(file.readline())
